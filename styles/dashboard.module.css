@@ -1,0 +1,192 @@
+.wrapper{
+    width: 100%;
+    height: calc(100vh - 75px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    background-color: #121212;
+}
+
+.mainArea{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.mainArea h1{
+    font-size: 28px;
+}
+
+.formArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttonArea{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.checkButton{
+    width: 21px;
+    height: 21px;
+    appearance: none;
+    border: 2px solid #fff;
+    outline: auto;
+    border-radius: 5px;
+}
+
+.checkButton:checked{
+    background-color: #3183ff;
+}
+
+.registerButton{
+    padding: 10px 0px;
+    background-color: #3183ff;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.9s ease;
+}
+
+.registerButton:hover{
+    scale: 102%;
+    background-color: #5398ff;
+}
+
+.tasksArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    padding-bottom: 30px;
+}
+
+.sectionArea{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.sectionArea article{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #121212;
+    border-radius: 8px;
+}
+.publicArea{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.publicArea h3{
+    padding: 3px 10px;
+    background-color: #3183ff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.publicArea button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+
+.publicArea button:hover{
+    scale: 110%;
+}
+
+.textArea{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textArea h1{
+    white-space: pre-wrap;
+}
+
+.textArea button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+
+.textArea button:hover{
+    scale: 110%;
+}
+
+.likeArea{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 8px;
+    gap: 13px;
+}
+
+.likeArea button{
+    background-color: transparent;
+    padding-top: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.likeBox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.likeBox p {
+    font-weight: bold;
+    color:#3183ff
+}
+
+.dislikeBox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dislikeBox p{
+    font-weight: bold;
+    color: #f30000;
+}
+
+
+.likeArea h3{
+    padding: 1px 6px;
+    border: 1px solid #121212;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.9s ease;
+}
+
+.likeArea h3:hover{
+    scale: 105%;
+    background-color: #666666;
+    color: #FFF;
+}

@@ -1,0 +1,113 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-color: #121212;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: #fff;
+}
+
+.mainArea{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 30px;
+}
+
+.heroImg{
+    width: 100%;
+    max-width: 480px;
+    object-fit: contain;
+}
+
+.title{
+    text-align: center;
+}
+
+.infoBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.posts{
+    width: 100%;
+    max-width: 240px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 8px;
+    transition: all 0.9s ease;
+}
+
+.posts:hover{
+    scale: 105%;
+    background-color: #6e6c6c;
+    color: aliceblue;
+}
+
+.comments{
+    width: 100%;
+    max-width: 240px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 8px;
+    transition: all 0.9s ease;
+}
+
+
+.comments:hover{
+    scale: 105%;
+    background-color: #6e6c6c;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 580px){
+    
+    .mainArea{
+        gap: 20px;
+    }
+    
+    .heroImg{
+        width: 100%;
+        max-width: 400px;
+    }   
+    
+    .title{
+        font-size: 22px;
+    }   
+    
+    .infoBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .posts{
+        font-size: 19px;
+        
+    }
+    
+    .comments{
+        font-size: 19px;
+        
+    }
+}
